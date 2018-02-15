@@ -59,6 +59,11 @@ MatrixXd Tools::CalculateJacobian(const VectorXd& x_state) {
 	float vx = x_state(2);
 	float vy = x_state(3);
 
+	if (fabs(px) < threshold && fabs(py) < threshold) {
+		px = threshold;
+		py = threshold;
+	}
+
 	//pre-compute a set of terms to avoid repeated calculation
 	float c1 = px*px + py*py;
 	float c2 = sqrt(c1);

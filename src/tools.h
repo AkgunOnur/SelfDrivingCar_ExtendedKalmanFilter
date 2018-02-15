@@ -29,6 +29,10 @@ public:
   */
   MatrixXd CalculateJacobian(const VectorXd& x_state);
 
+private:
+	//a threshold for px and py
+	float threshold = 0.0001;
+
 };
 
 #endif /* TOOLS_H_ */
