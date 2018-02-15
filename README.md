@@ -2,9 +2,8 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/radar.jpg "Radar Results"
-[image2]: ./examples/lidar.jpg "Lidar Results"
-[image3]: ./examples/both.jpg "Both Radar and Lidar Combined"
+[image1]: ./examples/dataset1.jpg "Results for Dataset 1"
+[image2]: ./examples/dataset2.jpg "Results for Dataset 1"
 
 ## Overview
 
@@ -32,14 +31,10 @@ In order to install necessary libraries on Windows, [install-ubuntu.sh](./instal
 
 To find out the accuracy of the sensors, radar and lidar measurements are utilized separately.
 
-### Results for only Radar
+### Results for Dataset 1
 
 ![alt text][image1]
 
-### Results for only Lidar
+### Results for Dataset 1
 
 ![alt text][image2]
-
-### Results for both Radar and Lidar
-
-![alt text][image3]
